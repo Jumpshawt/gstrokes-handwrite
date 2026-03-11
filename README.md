@@ -19,3 +19,6 @@ cmake --build build
  -r, --realtime      Enable real-time recognition during stroke
  -h, --help          Show help message
 ```
+
+### Important 
+To use, you need a trackapd on your laptop, regular mouse support will be added very soon :] 
