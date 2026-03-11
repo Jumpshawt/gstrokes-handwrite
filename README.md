@@ -21,7 +21,8 @@ cmake --build build
 ```
 ### Example 
 ```bash
-GHandWrite -l ja -f /usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Bold.otf
+GHandWrite -l ru #Start with russian
+GHandWrite -l ja -f /usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Bold.otf #Set the langauge to japanese, along with a japanese font 
 ```
 
 ### Important 
