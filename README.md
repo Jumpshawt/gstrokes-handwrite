@@ -1,9 +1,16 @@
 # gstrokes-handwrite
 A C++ handwriting recognition, using googles handwriting API and SDL. 
 
-# Building 
+## Building 
 Dependencies: SDL, libcurl, nlohmann-json
 
 To build, run: 
+```bash
+cmake --build build 
+```
 
-```g++ draw2.cpp -o whatda2 `pkg-config --cflags --libs sdl2 libevdev` -lSDL2 -lSDL2_gfx -lcurl -Ofast```
+## Arguments
+ -l, --lang <lang>   Set recognition language (e.g. en, ja, he, zh-TW). Default: en\n
+ -f, --font <path>   Set the font to use. 
+ -r, --realtime      Enable real-time recognition during stroke
+ -h, --help          Show help message
