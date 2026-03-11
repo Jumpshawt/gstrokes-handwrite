@@ -19,6 +19,10 @@ cmake --build build
  -r, --realtime      Enable real-time recognition during stroke
  -h, --help          Show help message
 ```
+### Example 
+```bash
+GHandWrite -l ja -f /usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Bold.otf
+```
 
 ### Important 
 To use, you need a trackapd on your laptop, regular mouse support will be added very soon :] 
