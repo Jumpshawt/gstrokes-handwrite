@@ -1,0 +1,12 @@
+
+- Add in support for regular mouse devices 
+
+- Add in ime/keyboard outputs 
+
+- Suggestion selection
+
+- Graphical: add in a track to show where you mouse is currently 
+
+- graphical: make the strokes slowly fade?
+
+- add a mode for no-fonts 
